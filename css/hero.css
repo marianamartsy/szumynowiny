@@ -22,6 +22,8 @@
 .hero-img__title {
 	margin: 10px;
 	color: var(--pure-white-color);
+	font-weight: bold;
+	text-shadow: 1px 1px 1px var(--secondary-color);
 }
 .hero-img__title {
 	font-size: 50px;
@@ -29,8 +31,6 @@
 .hero-img__text {
 	padding: 16px 0;
 	font-size: 20px;
-	font-weight: bold;
-	text-shadow: 1px 1px 1px var(--secondary-color);
 }
 .hero-img hr {
 	margin: 0 auto;
