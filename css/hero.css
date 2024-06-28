@@ -21,7 +21,6 @@
 }
 .hero-img__text,
 .hero-img__title {
-	font-size: 20px;
 	margin: 10px;
 	color: var(--pure-white-color);
 }
@@ -30,6 +29,7 @@
 }
 .hero-img__text {
 	padding: 16px 0;
+	font-size: 20px;
 	font-weight: bold;
 }
 @media (min-width: 500px) {
