@@ -1,7 +1,7 @@
 .offers {
 	position: relative;
 	padding: 40px 15px;
-	background-image: var(--background-garadient), url('../img/flowers-7790227_1280.jpg');
+	background-image: url('../img/flowers-7790227_1280.jpg');
 	background-size: cover;
 	background-position: center;
 	overflow: hidden;
@@ -54,7 +54,7 @@
 }
 
 @media (min-width: 768px) {
-	.offers{
+	.offers {
 		background-attachment: fixed;
 	}
 	.offers__option {
@@ -84,7 +84,6 @@
 	}
 }
 @media (min-width: 992px) {
-
 	.offers__option-img {
 		object-fit: cover;
 	}
