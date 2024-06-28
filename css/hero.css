@@ -31,6 +31,7 @@
 	padding: 16px 0;
 	font-size: 20px;
 	font-weight: bold;
+	text-shadow: 1px 1px 1px var(--secondary-color);
 }
 .hero-img hr {
 	margin: 0 auto;

@@ -30,7 +30,7 @@
 	transition: color 0.3s;
 }
 .footer__box-link:hover {
-	color: var(--light-color);
+	color: var(--main-color);
 }
 .footer__bottom-text {
 	padding: 14px;
