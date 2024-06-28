@@ -1,0 +1,22 @@
+.privacy-policy {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--dark-color);
+}
+.privacy-policy__box {
+	font-size: 16px;
+}
+.privacy-policy__title,
+.privacy-policy__subtitle {
+	padding: 15px;
+	font-size: 20px;
+	text-align: center;
+	color: var(--main-color);
+}
+.privacy-policy__title {
+	font-size: 25px;
+}
+.privacy-policy__text {
+	line-height: 1.5;
+}

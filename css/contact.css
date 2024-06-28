@@ -1,0 +1,51 @@
+.contacts{
+	background-image: url('../img/grass-3707732_1280.png');
+	background-position: bottom;
+	padding-bottom: 100px;
+}
+.contacts__box {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.contacts__box-list {
+	list-style: none;
+	font-weight: bold;
+	margin: 0 20px 20px 0;
+	color: var(--secondary-color);
+}
+.contacts__box-list-item {
+	padding: 10px;
+	font-size: 20px;
+}
+.contacts__box-list-item a {
+	text-decoration: none;
+	color: var(--secondary-color);
+}
+.contacts__box-social {
+	padding: 20px;
+}
+.contacts__map-text {
+	color: var(--main-color);
+	padding: 20px 0;
+}
+@media (min-width: 576px) {
+	.contacts__box-list-item {
+		font-size: 20px;
+	}
+}
+@media (min-width: 992px) {
+	.contacts__box {
+		flex-direction: row;
+	}
+	.contacts__box-social .bi {
+		transition: color 1s;
+	}
+	.contacts__box-social .bi:hover {
+		color: var(--main-color);
+	}
+}

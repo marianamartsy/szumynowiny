@@ -1,0 +1,126 @@
+.object-info__cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.object-info__card {
+	position: relative;
+	margin: 16px 0;
+	height: 500px;
+	width: 90%;
+	color: var(--pure-white-color);
+	text-align: center;
+	perspective: 1000px;
+}
+.object-info__card:hover .object-info__card-img,
+.touch-active:hover .object-info__card-img {
+	transform: rotateY(-180deg);
+	opacity: 0;
+}
+
+.object-info__card:hover .object-info__card-info,
+.touch-active:hover .object-info__card-info {
+	transform: rotateY(0);
+	opacity: 1;
+}
+.object-info__card-img {
+	padding: 20px;
+	height: 100%;
+	border-radius: 7px;
+	background-size: cover;
+	transition: transform 1s, opcity 1s;
+}
+.object-info__card-img--first {
+	background-image: var(--background-garadient), url(../img/szumy.jpeg);
+}
+.object-info__card-img--second {
+	background-image: var(--background-garadient), url(../img/Pokój-Dwuosobowy-typu-Deluxe.jpeg);
+}
+.object-info__card-img--third {
+	background-image: var(--background-garadient), url(../img/rowery.jpeg);
+}
+.object-info__card-img-title,
+.object-info__card-info-title {
+	letter-spacing: 1px;
+	margin-top: 33px;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+.object-info__card-img-info,
+.object-info__card-img-title,
+.object-info__card-info-title {
+	font-size: 22px;
+	color: var(--secondary-color);
+	background-color: var(--light-color);
+	padding: 10px;
+}
+.object-info__card-img-info {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -90%);
+	width: 100%;
+}
+
+.object-info__card-info {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: var(--background-garadient-solid);
+	border-radius: 7px;
+	opacity: 0;
+	transform: rotateY(180deg);
+	transition: transform 1s, opacity 1s;
+}
+.object-info__card-info-title {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 19.2px;
+	width: 90%;
+}
+.object-info__card-info-list {
+	margin: 0 auto;
+	width: 90%;
+	list-style: none;
+}
+.object-info__card-info-list-item {
+	padding: 6px;
+	font-size: 25px;
+	border-bottom: 1px solid var(--pure-white-color);
+}
+.object-info__card-info-list-item:last-child {
+	border-bottom: none;
+}
+
+@media (min-width: 576px) {
+	.object-info__card-img-title,
+	.object-info__card-info-title {
+		padding: 10px;
+		font-size: 27px;
+	}
+	.object-info__cards {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.object-info__card {
+		margin: 15px;
+		width: 70%;
+	}
+}
+@media (min-width: 768px) {
+	.object-info__card {
+		width: 45%;
+	}
+}
+@media (min-width: 1000px) {
+	.object-info__card {
+		width: 30%;
+	}
+}

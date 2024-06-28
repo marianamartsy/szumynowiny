@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+::before,
+::after,
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--main-color: rgb(107, 3, 103);
+	--secondary-color: rgb(78, 72, 155);
+	--light-color: rgb(248, 240, 249, 0.6);
+	--dark-color: rgb(42, 13, 42);
+	--pure-white-color: rgb(255, 234, 234);
+	--disabled-color: rgb(229, 224, 224);
+	--error-color: rgb(219, 47, 47);
+	--background-garadient: linear-gradient(45deg, rgba(245, 226, 194, 0.25), rgba(209, 120, 231, 0.25));
+	--background-garadient-solid: linear-gradient(45deg, rgb(107, 3, 103), rgb(78, 72, 155));
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
+img {
+	display: block;
+	width: 100%;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+.section-heading {
+	position: relative;
+	margin: 20px 0;
+	font-size: 30px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--main-color);
+	letter-spacing: 2px;
+}
+
+.section-padding {
+	padding: 15px 13px;
+}
+.btn-special-animation:hover {
+	background-color: var(--secondary-color);
+}
+
+@media (min-width: 768px) {
+	.section-heading {
+		font-size: 50px;
+	}
+	.section-padding {
+		padding: 20px 19px;
+	}
+}
+@media (min-width: 992px) {
+	.section-heading {
+		font-size: 60px;
+	}
+	.section-padding {
+		padding: 25px 19px;
+	}
+}
