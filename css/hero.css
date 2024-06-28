@@ -32,6 +32,10 @@
 	font-size: 20px;
 	font-weight: bold;
 }
+.hero-img hr {
+	margin: 0 auto;
+	width: 70%;
+}
 @media (min-width: 500px) {
 	.hero-img {
 		background-attachment: fixed;
@@ -41,10 +45,6 @@
 @media (min-width: 768px) {
 	.hero-img {
 		padding: 400px 35px;
-	}
-	.hero-img hr {
-		margin: 0 auto;
-		width: 70%;
 	}
 	.hero-img__text {
 		font-size: 35px;
