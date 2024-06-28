@@ -4,7 +4,7 @@ $(document).ready(function () {
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 2500,
-
+		arrows: false,
 		mobileFirst: true,
 		responsive: [
 			{

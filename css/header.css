@@ -26,7 +26,7 @@
 	font-size: 30px;
 }
 .header__btn {
-	padding: 10px;
+	padding: 20px;
 	text-decoration: none;
 	margin: 20px;
 	border: 2px solid var(--pure-white-color);
@@ -34,7 +34,7 @@
 	cursor: pointer;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-size: 10px;
+	font-size: 16px;
 	color: var(--pure-white-color);
 	transition: background-color 0.7s;
 	animation: appear 1s forwards;
