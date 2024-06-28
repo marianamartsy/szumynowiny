@@ -43,7 +43,10 @@
 	list-style: none;
 	margin-top: 15px;
 }
-
+.footer__box-list-item {
+	text-decoration: none;
+	color: var(--pure-white-color);
+}
 .footer__privacy-policy {
 	text-decoration: underline;
 	color: var(--pure-white-color);
