@@ -110,7 +110,7 @@
 		display: none;
 	}
 	.header {
-		background-image:var(--background-garadient),   url('../img/forest-1866837_1280.jpg');
+		background-image:var(--background-garadient), url('../img/forest-1866837_1920.jpg');
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
