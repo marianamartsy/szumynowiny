@@ -35,7 +35,7 @@
 	background-image: var(--background-garadient), url(../img/szumy.jpeg);
 }
 .object-info__card-img--second {
-	background-image: var(--background-garadient), url(../img/Pokój-Dwuosobowy-typu-Deluxe.jpeg);
+	background-image: var(--background-garadient), url(../img/Pokoj-Dwuosobowy-typu-Deluxe.jpeg);
 }
 .object-info__card-img--third {
 	background-image: var(--background-garadient), url(../img/rowery.jpeg);
