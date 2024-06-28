@@ -4,22 +4,27 @@ $(document).ready(function () {
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 2500,
-		arrows: false,
+
 		mobileFirst: true,
 		responsive: [
 			{
-				breakpoint: 900,
+				breakpoint: 992,
 				settings: {
 					slidesToShow: 2,
 					slidesToScroll: 1,
+					arrows: true,
+					prevArrow: '<button type="button" class="slick-prev"><i class="bi bi-arrow-left-circle"></i></button>',
+					nextArrow: '<button type="button" class="slick-next"><i class="bi bi-arrow-right-circle"></i></button>',
 				},
 			},
 			{
 				breakpoint: 1400,
 				settings: {
-					slidesToShow: 
-					3,
+					slidesToShow: 3,
 					slidesToScroll: 1,
+					arrows: true,
+					prevArrow: '<button type="button" class="slick-prev"><i class="bi bi-arrow-left-circle"></i></button>',
+					nextArrow: '<button type="button" class="slick-next"><i class="bi bi-arrow-right-circle"></i></button>',
 				},
 			},
 		],

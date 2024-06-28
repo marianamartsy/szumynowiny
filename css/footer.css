@@ -45,7 +45,7 @@
 }
 
 .footer__privacy-policy {
-	
+	text-decoration: underline;
 	color: var(--pure-white-color);
 }
 
