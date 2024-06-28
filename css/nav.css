@@ -96,7 +96,7 @@
 .dark-bars-color,
 .dark-bars-color::after,
 .dark-bars-color::before {
-background-color: var(--dark-color);
+background-color: var(--secondary-color);
 }
 
 @media (min-width: 992px) {
