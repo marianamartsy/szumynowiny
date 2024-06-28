@@ -44,6 +44,6 @@
 .slick-prev i,
 .slick-next i {
 	font-size: 50px;
-	color: var(--pure-white-color);
+	color: var(--main-color);
 }
 }
