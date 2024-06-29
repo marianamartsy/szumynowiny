@@ -16,7 +16,7 @@
 }
 .bikes__description-text span {
 	color: var(--secondary-color);
-	font-weight: bold;
+	
 }
 .swiper {
 	width: 100%;
