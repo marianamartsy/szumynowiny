@@ -1,4 +1,4 @@
-.nav__items{
+.nav__items {
 	position: fixed;
 	top: 0;
 	display: flex;
@@ -8,7 +8,7 @@
 	height: 100vh;
 	width: 100%;
 	transform: translateX(100%);
-	transition: .7s cubic-bezier(0.75, 0.082, 0.165, 1);
+	transition: 0.7s cubic-bezier(0.75, 0.082, 0.165, 1);
 	background-image: var(--background-garadient-solid);
 	z-index: 100;
 }
@@ -97,7 +97,7 @@
 .dark-bars-color,
 .dark-bars-color::after,
 .dark-bars-color::before {
-background-color: var(--secondary-color);
+	background-color: var(--secondary-color);
 }
 
 @media (min-width: 992px) {
@@ -108,5 +108,4 @@ background-color: var(--secondary-color);
 	.nav__item {
 		font-size: 30px;
 	}
-	
 }

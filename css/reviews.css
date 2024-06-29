@@ -7,9 +7,10 @@
 .booking-review,
 .google-review {
 	padding: 10px;
-    margin: 10px;
-    z-index: -1000;
+	margin: 10px;
+	z-index: -1;
 }
+
 @media (min-width: 768px) {
 	.reviews__box {
 		flex-direction: row;
