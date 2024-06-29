@@ -54,7 +54,7 @@
 	background: none;
 	border: 1px solid transparent;
 	cursor: pointer;
-	z-index: 1000;
+	z-index: 100001;
 }
 .burger-btn:focus {
 	outline: none;
