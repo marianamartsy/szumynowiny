@@ -18,8 +18,9 @@
 	color: var(--pure-white-color);
 	margin: 8px 0;
 	padding: 8px 26px;
-	font-size: 27px;
+	font-size: 23px;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 .nav__item::before {
 	content: '';
@@ -105,7 +106,7 @@ background-color: var(--secondary-color);
 		right: 50px;
 	}
 	.nav__item {
-		font-size: 40px;
+		font-size: 30px;
 	}
 	
 }
