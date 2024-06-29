@@ -15,7 +15,7 @@
 	margin: 20px;
 	padding: 7px;
 	border-radius: 7px;
-	box-shadow: 3px 3px 2px var(--main-color);
+	box-shadow: 2px 2px 2px var(--main-color);
 	transition: transorm 0.3s;
 }
 .gallery__box img {
