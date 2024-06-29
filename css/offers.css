@@ -52,12 +52,29 @@
 }
 
 @media (min-width: 768px) {
+	.offers__option-text {
+		font-size: 18px;
+	}
+	.offers__option-heading {
+		margin-bottom: 8px;
+		font-size: 30px;
+	}
+}
+
+@media (min-width: 992px) {
+	.offers {
+		background-image: url('../img/flowers-7790227_1280.jpg');
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+	}
 	.offers__option {
 		display: flex;
 		margin: 30px 0;
 		width: 100%;
 	}
 	.offers__option-img {
+		object-fit: cover;
 		width: 50%;
 		height: auto;
 		min-height: 300px;
@@ -70,25 +87,8 @@
 		flex-direction: column;
 		justify-content: space-between;
 	}
-	.offers__option-heading {
-		margin-bottom: 8px;
-		font-size: 30px;
-	}
+
 	.offers__option-btn {
 		padding: 15px;
-	}
-}
-@media (min-width: 992px) {
-	.offers {
-		background-image: url('../img/flowers-7790227_1280.jpg');
-		background-size: cover;
-		background-position: center;
-		background-attachment: fixed;
-	}
-	.offers__option-img {
-		object-fit: cover;
-	}
-	.offers__option-text {
-		font-size: 18px;
 	}
 }
