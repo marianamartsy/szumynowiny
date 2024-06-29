@@ -23,6 +23,7 @@
 .about-us__title {
 	margin: 15px 0;
 	text-transform: uppercase;
+	font-weight: normal;
 	color: var(--secondary-color);	
 }
 .about-us__text {
@@ -31,8 +32,7 @@
 	line-height: 1.7;
 }
 .about-us__text span {
-	color: var(--main-color);	
-	font-weight: bold;
+	color: var(--secondary-color);		
 }
 
 @media (min-width: 992px) {

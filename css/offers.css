@@ -26,15 +26,15 @@
 	z-index: 10;
 }
 .offers__option-heading {
-	margin-bottom: 7px;
+	margin: 7px 0;
 	font-size: 25px;
 	font-weight: 200;
-	color: var(--dark-color);
+	color: var(--main-color);
 }
 .offers__option-text {
 	color: var(--dark-color);
-	font-size: 15px;
-	line-height: 1.5;
+	font-size: 16px;
+	line-height: 1.6;
 }
 .offers__option-btn {
 	display: block;
@@ -89,6 +89,6 @@
 		object-fit: cover;
 	}
 	.offers__option-text {
-		font-size: 20px;
+		font-size: 18px;
 	}
 }
