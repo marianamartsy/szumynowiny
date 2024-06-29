@@ -23,6 +23,7 @@
 	max-height: 600px;
 	max-width: 400px;
 	border-radius: 7px;
+	box-shadow: 4px 4px 3px var(--secondary-color);
 }
 .swiper-button {
 	color: var(--main-color);
