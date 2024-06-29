@@ -48,8 +48,7 @@
 	width: 100%;
 	letter-spacing: 1px;
 	font-weight: bold;
-	color: var(--main-color);
-	background-color: var(--light-color);
+	background-color: var(--main-color);
 	padding: 10px;
 	overflow: hidden;
 }
@@ -87,7 +86,7 @@
 }
 .object-info__card-info-list-item {
 	padding: 6px;
-	font-size: 25px;
+	font-size: 20px;
 	border-bottom: 1px solid var(--pure-white-color);
 }
 .object-info__card-info-list-item:last-child {
