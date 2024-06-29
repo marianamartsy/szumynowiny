@@ -34,6 +34,7 @@
 }
 .footer__bottom-text {
 	padding: 14px;
+	text-align: center;
 }
 .footer__box-list {
 	display: flex;
