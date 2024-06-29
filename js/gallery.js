@@ -4,7 +4,9 @@ $(document).ready(function () {
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 2500,
-		arrows: false,
+		arrows: true,
+		prevArrow: '<button type="button" class="slick-prev"><i class="bi bi-chevron-left"></i></i></button>',
+		nextArrow: '<button type="button" class="slick-next"><i class="bi bi-chevron-right"></i></button>',
 		mobileFirst: true,
 		responsive: [
 			{
@@ -12,9 +14,6 @@ $(document).ready(function () {
 				settings: {
 					slidesToShow: 2,
 					slidesToScroll: 1,
-					arrows: true,
-					prevArrow: '<button type="button" class="slick-prev"><i class="bi bi-chevron-left"></i></i></button>',
-					nextArrow: '<button type="button" class="slick-next"><i class="bi bi-chevron-right"></i></button>',
 				},
 			},
 			{
@@ -22,9 +21,6 @@ $(document).ready(function () {
 				settings: {
 					slidesToShow: 3,
 					slidesToScroll: 1,
-					arrows: true,
-					prevArrow: '<button type="button" class="slick-prev"><i class="bi bi-chevron-left"></i></button>',
-					nextArrow: '<button type="button" class="slick-next"><i class="bi bi-chevron-right"></i></button>',
 				},
 			},
 		],
