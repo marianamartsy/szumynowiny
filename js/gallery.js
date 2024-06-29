@@ -5,8 +5,10 @@ $(document).ready(function () {
 		autoplay: true,
 		autoplaySpeed: 2500,
 		arrows: true,
-		prevArrow: '<button type="button" class="slick-prev"><i class="bi bi-chevron-left"></i></i></button>',
-		nextArrow: '<button type="button" class="slick-next"><i class="bi bi-chevron-right"></i></button>',
+		prevArrow:
+			'<button type="button" class="slick-prev" aria-label="Poprzedni slajd"><i class="bi bi-chevron-left"></i></i></button>',
+		nextArrow:
+			'<button type="button" class="slick-next" aria-label="Następny slajd"><i class="bi bi-chevron-right"></i></button>',
 		mobileFirst: true,
 		responsive: [
 			{
