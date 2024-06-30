@@ -10,15 +10,6 @@
 	text-align: center;
 	background-image: var(--background-garadient-secondary);
 }
-.hero-img__mobile {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	z-index: -1000;
-}
 .hero-img__text,
 .hero-img__title {
 	margin: 10px;

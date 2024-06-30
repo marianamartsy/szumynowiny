@@ -55,6 +55,15 @@ body {
 .btn-special-animation:hover {
 	background-color: var(--secondary-color);
 }
+.parallax-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1000;
+}
 
 @media (min-width: 768px) {
 	.section-heading {
