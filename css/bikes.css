@@ -15,7 +15,7 @@
 	padding-right: 10px;
 }
 .bikes__description-text span {
-	color: var(--secondary-color);
+	color: var(--main-color);		
 	
 }
 .swiper {

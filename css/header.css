@@ -9,7 +9,7 @@
 	height: 90vh;
 	width: 100%;
 	min-height: 800px;
-	background-image:var(--background-garadient);
+	background-image: var(--background-garadient-secondary);
 	overflow: hidden;
 }
 .header__title {
@@ -110,7 +110,7 @@
 		display: none;
 	}
 	.header {
-		background-image:var(--background-garadient), url('../img/bg/bg-forest_1920-min.webp');
+		background-image: var(--background-garadient-secondary), url('../img/bg/bg-forest_1920-min.webp');
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
