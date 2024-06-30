@@ -1,4 +1,4 @@
-const image = document.querySelectorAll('.parallax-img')
+const image = document.querySelectorAll('.thumbnail')
 new simpleParallax(image, {
 	orientation: 'down',
 })
