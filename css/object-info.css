@@ -32,13 +32,13 @@
 	transition: transform 1s, opcity 1s;
 }
 .object-info__card-img--first {
-	background-image: url(../img/szumy.jpeg);
+	background-image: url('../img/okolice/szumy-min.webp');
 }
 .object-info__card-img--second {
-	background-image: url(../img/Pokoj-Dwuosobowy-typu-Deluxe.jpeg);
+	background-image: url('../img/object/Pokoj-Dwuosobowy-typu-Deluxe.webp');
 }
 .object-info__card-img--third {
-	background-image: url(../img/rowery.jpeg);
+	background-image: url('../img/rowery/rowery.webp');
 }
 .object-info__card-img-info,
 .object-info__card-img-title {
