@@ -1,4 +1,4 @@
-const objectInfoCards = document.querySelectorAll('.object-info__card')
+const objectInfoCards = document.querySelectorAll('.object-info__card-img-info')
 
 objectInfoCards.forEach(card => {
 	card.addEventListener('touchstart', function () {
