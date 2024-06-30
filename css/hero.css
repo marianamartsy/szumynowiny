@@ -24,7 +24,7 @@
 	margin: 10px;
 	color: var(--pure-white-color);
 	letter-spacing: 2px;
-	text-shadow: 1px 1px 1px var(--secondary-color);
+	/* text-shadow: 1px 1px 1px var(--main-color); */
 }
 .hero-img__title {
 	font-size: 50px;
