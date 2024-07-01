@@ -1,4 +1,4 @@
-document.addEventListener('scroll', function () {
+function handleParallax() {
 	const scrollPosition = window.scrollY
 	const headerImage = document.querySelector('.header .parallax-img')
 	const heroImage = document.querySelector('.hero-img .parallax-img')
@@ -15,4 +15,18 @@ document.addEventListener('scroll', function () {
 			heroImage.style.transform = 'translateY(0)'
 		}
 	}
-})
+}
+
+handleParallax()
+let rafPending = false
+function scrollHandler() {
+	if (!rafPending) {
+		rafPending = true
+		requestAnimationFrame(function () {
+			handleParallax()
+			rafPending = false
+		})
+	}
+}
+
+document.addEventListener('scroll', scrollHandler)
