@@ -79,9 +79,6 @@
 }
 
 @media (min-width: 768px) {
-	.header {
-		background-attachment: fixed;
-	}
 	.header__title {
 		font-size: 40px;
 	}
@@ -96,14 +93,5 @@
 @media (min-width: 992px) {
 	.header__title {
 		font-size: 65px;
-	}
-	.header-img__mobile {
-		display: none;
-	}
-	.header {
-		background-image: var(--background-garadient-secondary), url('../img/bg/bg-forest_1920-min.webp');
-		background-size: cover;
-		background-position: center;
-		background-attachment: fixed;
 	}
 }

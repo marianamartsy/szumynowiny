@@ -6,16 +6,15 @@
 	flex-direction: column;
 	height: 100vh;
 	width: 100%;
-	overflow: hidden;
 	text-align: center;
 	background-image: var(--background-garadient-secondary);
+	overflow: hidden;
 }
 .hero-img__text,
 .hero-img__title {
 	margin: 10px;
 	color: var(--pure-white-color);
 	letter-spacing: 2px;
-	/* text-shadow: 1px 1px 1px var(--main-color); */
 }
 .hero-img__title {
 	font-size: 50px;
@@ -28,30 +27,13 @@
 	margin: 0 auto;
 	width: 70%;
 }
-@media (min-width: 500px) {
-	.hero-img {
-		background-attachment: fixed;
-	}
-}
 
 @media (min-width: 768px) {
-	.hero-img {
-		padding: 400px 35px;
-	}
 	.hero-img__text {
 		font-size: 35px;
 	}
 }
 @media (min-width: 992px) {
-	.hero-img__mobile {
-		display: none;
-	}
-	.hero-img {
-		background-image: var(--background-garadient-secondary), url('../img/bg/bg-forest-3_1280-min.webp');
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-	}
 	.hero-img__title {
 		font-size: 100px;
 	}
