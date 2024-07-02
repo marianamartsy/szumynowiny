@@ -18,7 +18,6 @@
 	list-style: none;
 	font-weight: bold;
 	margin: 0 20px 20px 0;
-
 }
 .contacts__box-list-item {
 	padding: 10px;
@@ -27,6 +26,9 @@
 .contacts__box-list-item a {
 	text-decoration: none;
 	color: var(--pure-white-color);
+}
+iframe {
+	border-radius: 7px;
 }
 .contacts__map-text {
 	color: var(--pure-white-color);
