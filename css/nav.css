@@ -11,7 +11,7 @@
 	transform: translateX(100%);
 	transition: 0.7s cubic-bezier(0.75, 0.082, 0.165, 1);
 	background-image: var(--background-garadient-solid);
-	z-index: 100;
+	z-index: 10000;
 }
 .nav__items img {
 	width: 30px;
