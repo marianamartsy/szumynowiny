@@ -15,8 +15,7 @@
 	padding-right: 10px;
 }
 .bikes__description-text span {
-	color: var(--main-color);		
-	
+	color: var(--main-color);
 }
 .swiper {
 	width: 100%;
@@ -25,8 +24,10 @@
 	border-radius: 7px;
 	box-shadow: 2px 2px 3px var(--secondary-color);
 }
-.swiper-button {
-	color: var(--main-color);
+.swiper-button::after,
+.swiper-button::before {
+	color: var(--secondary-color);
+	font-size: 60px;
 	cursor: pointer;
 }
 
@@ -43,5 +44,11 @@
 	}
 	.swiper {
 		margin: 40px;
+	}
+}
+@media (min-width: 992px) {
+	.swiper-button::after,
+	.swiper-button::before {
+		font-size: 80px;
 	}
 }

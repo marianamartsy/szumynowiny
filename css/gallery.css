@@ -15,8 +15,8 @@
 	margin: 20px;
 	padding: 7px;
 	border-radius: 7px;
-	box-shadow: 2px 2px 2px var(--main-color);
-	transition: transorm 0.3s;
+	box-shadow: 6px 6px 13px var(--main-color);
+	transition: transform 0.3s;
 }
 .gallery__box img {
 	width: 100%;
@@ -47,7 +47,7 @@
 .slick-prev i,
 .slick-next i {
 	font-size: 60px;
-	color: var(--main-color);
+	color: var(--secondary-color);
 }
 @media (min-width: 768px) {
 	.gallery__box-heading {
@@ -57,7 +57,6 @@
 @media (min-width: 992px) {
 	.slick-prev i,
 	.slick-next i {
-		font-size: 80px;
-		font-weight: bolder;
+		font-size: 100px;
 	}
 }
