@@ -53,36 +53,6 @@
 	color: var(--pure-white-color);
 }
 
-.privacy-message,
-.privacy-message__button-box {
-	display: flex;
-	padding: 10px;
-	color: var(--pure-white-color);
-}
-.privacy-message {
-	position: fixed;
-	bottom: 0;
-	width: 100vw;
-	background-color: var(--main-color);
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	font-size: 16px;
-	margin: 0 auto;
-	z-index: 10;
-}
-.privacy-message__button,
-.privacy-message__icon {
-	color: var(--dark-color);
-	text-decoration: none;
-	border: 0;
-	margin: 7px;
-	border-radius: 8px;
-	background-color: var(--pure-white-color);
-	padding: 10px;
-	font-size: 16px;
-	cursor: pointer;
-}
 @media (min-width: 768px) {
 	.footer__boxes {
 		display: flex;
