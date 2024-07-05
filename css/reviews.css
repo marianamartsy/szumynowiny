@@ -23,7 +23,6 @@
 }
 
 .reviews__google-box {
-
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -33,7 +32,7 @@
 	width: 100px;
 }
 .booking-review img{
-	margin: 9px;
+	margin: 4px;
 }
 
 @media (min-width: 768px) {
