@@ -2,7 +2,9 @@ const reviewsDiv = document.querySelector('.reviews__google-user-ratings')
 
 async function fetchPlaceDetails() {
 	try {
-		const response = await fetch('szumynowiny-back-nvwjguomk-marianamartsys-projects.vercel.app/api/place-details')
+		const response = await fetch(
+			'https://szumynowiny-back-osd49r3to-marianamartsys-projects.vercel.app/api/place-details'
+		)
 		const responseData = await response.text()
 
 		console.log(responseData)
