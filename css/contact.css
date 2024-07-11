@@ -27,12 +27,7 @@
 	text-decoration: none;
 	color: var(--pure-white-color);
 }
-.contacts__map-static-img {
-	height: 400px;
-	width: 100%;
-	object-fit: cover;
-	border-radius: 7px;
-}
+
 iframe {
 	border-radius: 7px;
 }

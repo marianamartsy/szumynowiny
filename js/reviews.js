@@ -3,7 +3,7 @@ const googleStarsDiv = document.querySelector('.reviews__google-stars')
 
 async function fetchPlaceDetails() {
 	try {
-		const response = await fetch('https://szumynowiny-back.vercel.app/api/place-details')
+		const response = await fetch('http://localhost:8080/api/place-details')
 		const responseData = await response.text()
 
 		let data
