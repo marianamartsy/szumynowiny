@@ -7,8 +7,24 @@
 	height: 100vh;
 	width: 100%;
 	text-align: center;
-	background-image: var(--background-garadient-secondary);
+	background-image: var(--background-garadient-secondary), url('../img/bg/bg-forest-3_1280-min.webp');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 	overflow: hidden;
+}
+.rallax-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -100;
+}
+.tt {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 .hero-img__text,
 .hero-img__title {
