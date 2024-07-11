@@ -28,8 +28,9 @@
 	color: var(--pure-white-color);
 }
 .contacts__map-static-img {
-	object-fit: cover;
 	height: 400px;
+	width: 90%;
+	object-fit: cover;
 	border-radius: 7px;
 }
 iframe {
