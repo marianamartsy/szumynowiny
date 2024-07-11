@@ -13,14 +13,12 @@
 	text-align: center;
 	perspective: 1000px;
 }
-.object-info__card:hover .object-info__card-img,
-.touch-active:hover .object-info__card-img {
+.object-info__card:hover .object-info__card-img {
 	transform: rotateY(-180deg);
 	opacity: 0;
 }
 
-.object-info__card:hover .object-info__card-info,
-.touch-active:hover .object-info__card-info {
+.object-info__card:hover .object-info__card-info {
 	transform: rotateY(0);
 	opacity: 1;
 }
