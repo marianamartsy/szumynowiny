@@ -1,7 +1,7 @@
-const objectInfoCards = document.querySelectorAll('.object-info__card')
+// const objectInfoCards = document.querySelectorAll('.object-info__card')
 
-objectInfoCards.forEach(card => {
-	card.addEventListener('touchstart', function () {
-		this.classList.add('touch-active')
-	})
-})
+// objectInfoCards.forEach(card => {
+// 	card.addEventListener('touchstart', function () {
+// 		this.classList.add('touch-active')
+// 	})
+// })
