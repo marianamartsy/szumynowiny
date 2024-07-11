@@ -9,6 +9,7 @@
 }
 .reviews__item a {
 	padding: 7px 0;
+	font-size: 16px;
 	text-decoration: none;
 	color: var(--main-color);
 }
@@ -31,8 +32,26 @@
 .google-logo {
 	width: 100px;
 }
-.booking-review img{
+.booking-review img {
 	margin: 8px;
+}
+
+.star {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-color: rgb(110, 110, 110);
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	margin-right: 4px;
+	display: none;
+}
+
+.star.half {
+	background: linear-gradient(90deg, rgb(255, 221, 0) 50%, rgb(110, 110, 110) 50%);
+}
+
+.star.full {
+	background-color: rgb(255, 221, 0);
 }
 
 @media (min-width: 768px) {
