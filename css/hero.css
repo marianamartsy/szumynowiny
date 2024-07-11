@@ -13,19 +13,7 @@
 	background-position: center;
 	overflow: hidden;
 }
-.rallax-img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	z-index: -100;
-}
-.tt {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
+
 .hero-img__text,
 .hero-img__title {
 	margin: 10px;
@@ -52,5 +40,13 @@
 @media (min-width: 992px) {
 	.hero-img__title {
 		font-size: 100px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+	@supports (-webkit-touch-callout: none) {
+		.hero-img {
+			background-attachment: scroll;
+		}
 	}
 }
