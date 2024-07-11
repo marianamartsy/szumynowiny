@@ -43,10 +43,15 @@
 	}
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-	@supports (-webkit-touch-callout: none) {
-		.hero-img {
-			background-attachment: scroll;
-		}
-	}
+@media all and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)  {
+    .hero-img {
+        background-attachment: scroll; 
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 0) and (pointer: fine) {
+    .hero-img {
+        background-attachment: scroll; 
+    }
 }
