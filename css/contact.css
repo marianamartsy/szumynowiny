@@ -27,8 +27,8 @@
 	text-decoration: none;
 	color: var(--pure-white-color);
 }
-.contacts__map-static img{
-	object-fit: cover; 
+.contacts__map-static-img {
+	object-fit: cover;
 	height: 400px;
 	border-radius: 7px;
 }
