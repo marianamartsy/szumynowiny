@@ -29,7 +29,7 @@
 }
 .contacts__map-static-img {
 	height: 400px;
-	width: 90%;
+	width: 100%;
 	object-fit: cover;
 	border-radius: 7px;
 }
