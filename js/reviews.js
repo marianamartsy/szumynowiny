@@ -7,6 +7,7 @@ async function fetchPlaceDetails() {
 		const responseData = await response.text()
 
 		let data
+
 		try {
 			data = JSON.parse(responseData)
 		} catch (error) {
@@ -16,8 +17,10 @@ async function fetchPlaceDetails() {
 
 		const { userRating, totalRatings } = data
 
-		reviewsDiv.textContent = `Ocena: ${userRating} z ${totalRatings || 0} opinii`
-		updateStars(userRating, googleStarsDiv)
+		if (userRating && totalRatings) {
+			reviewsDiv.textContent = `Ocena: ${userRating} z ${totalRatings || 0} opinii`
+			updateStars(userRating, googleStarsDiv)
+		}
 	} catch (error) {
 		console.error('Błąd podczas pobierania danych z backendu:', error)
 	}
