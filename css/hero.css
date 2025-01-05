@@ -16,14 +16,10 @@
 .hero-img__text {
 	padding: 16px 0;
 }
-@media (min-width: 500px) {
-	.hero-img {
-		background-attachment: fixed;
-	}
-}
 
 @media (min-width: 768px) {
 	.hero-img {
+		background-attachment: fixed;
 		padding: 400px 35px;
 	}
 	.hero-img hr {
