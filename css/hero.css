@@ -1,39 +1,43 @@
 .hero-img {
 	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	height: 100vh;
-	width: 100%;
+	padding: 160px 35px;
+	background-image: var(--background-garadient), url('../img/bg/bg-forest-3_1280-min.webp');
+	background-size: cover;
+	background-position: center;
+	background-attachment: cover;
 	text-align: center;
-	background-image: var(--background-garadient-secondary);
+	color: var(--pure-white-color);
 	overflow: hidden;
 }
-.hero-img__text,
 .hero-img__title {
-	margin: 10px;
-	color: var(--pure-white-color);
-	letter-spacing: 2px;
-}
-.hero-img__title {
+	margin-bottom: 8px;
 	font-size: 50px;
 }
 .hero-img__text {
 	padding: 16px 0;
-	font-size: 20px;
 }
-.hero-img hr {
-	margin: 0 auto;
-	width: 70%;
+@media (min-width: 500px) {
+	.hero-img {
+		background-attachment: fixed;
+	}
 }
 
 @media (min-width: 768px) {
+	.hero-img {
+		padding: 400px 35px;
+	}
+	.hero-img hr {
+		margin: 0 auto;
+		width: 70%;
+	}
 	.hero-img__text {
 		font-size: 35px;
 	}
 }
 @media (min-width: 992px) {
+	.hero-img {
+		padding: 600px 35px;
+	}
 	.hero-img__title {
 		font-size: 100px;
 	}
